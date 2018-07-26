@@ -46,8 +46,13 @@ class Worker():
     def save_user_info(self):
         with open("workshift.txt", "w+") as fp:
             fp.write(json.dumps(list_of_dicts, indent=2))
+        putin = input("If you want to quit(q), \n"
+              "for log in(l): ")
+        if putin == "q":
+            sys.exit()
+        elif putin == "l":
+            self.if_user_exist(self)
 
-        self.if_user_exist(self)
 
 
     def if_user_exist(self):
@@ -86,7 +91,7 @@ class Worker():
                 time_s = datetime.now().time()
                 time.sleep(1)
                 time_stop = datetime.now().time()
-                total_work = time_stop.second - time_s.second
+                total_work = time_s.second - time_stop.second
                 working_sec = total_work
                 working_min = working_sec / 60
                 working_hrs = working_min / 60
