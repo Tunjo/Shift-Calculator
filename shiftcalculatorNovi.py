@@ -91,7 +91,7 @@ class Worker():
                 time_s = datetime.now().time()
                 time.sleep(1)
                 time_stop = datetime.now().time()
-                total_work = time_s.second - time_stop.second
+                total_work = time_stop.second - time_s.second
                 working_sec = total_work
                 working_min = working_sec / 60
                 working_hrs = working_min / 60
@@ -148,7 +148,7 @@ class Worker():
 
             except KeyboardInterrupt:
                 self.save_user_info(self)
-                sys.exit()
+                
 
 
 user_Code = []

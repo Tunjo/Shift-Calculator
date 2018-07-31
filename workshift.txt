@@ -1,2 +1,34 @@
 [
+  {
+    "tuesday": 0.005277777777777788,
+    "name": "Antun",
+    "total": 0.005277777777777788,
+    "thursday": 0,
+    "id": 3974,
+    "sunday": 0,
+    "wednesday": 0,
+    "friday": 0,
+    "weekendnights": 0,
+    "money": 0.2638888888888872,
+    "saturday": 0,
+    "surname": "Franjin",
+    "night": 0,
+    "monday": 0
+  },
+  {
+    "tuesday": 0.005277777777777788,
+    "name": "Antun",
+    "total": 0.005277777777777788,
+    "thursday": 0,
+    "id": 3974,
+    "sunday": 0,
+    "wednesday": 0,
+    "friday": 0,
+    "weekendnights": 0,
+    "money": 0.2638888888888872,
+    "saturday": 0,
+    "surname": "Franjin",
+    "night": 0,
+    "monday": 0
+  }
 ]
