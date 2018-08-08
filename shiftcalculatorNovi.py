@@ -35,9 +35,9 @@ class Worker():
             "night": 0,
             "weekendnights": 0
         }
+        #Change smth
 
         list_of_dicts.append(user_info)
-
 
         user_Code.append(self.id)
 
@@ -148,7 +148,7 @@ class Worker():
 
             except KeyboardInterrupt:
                 self.save_user_info(self)
-                
+
 
 
 user_Code = []
